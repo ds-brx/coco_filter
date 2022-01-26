@@ -88,7 +88,7 @@ def main(args):
     dataType= args.datatype
     
     annFile='{}/annotations/instances_{}.json'.format(dataDir,dataType)
-    sc_img_dir_path = '{}/{}'.format(dataDir,dataType)
+    sc_img_dir_path = '{}/images/{}'.format(dataDir,dataType)
     des_img_dir_path = '{}/{}'.format(filter_coco, dataType)
     ann_dir_path = '{}/{}'.format(filter_labels,dataType)
     
