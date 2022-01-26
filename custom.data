@@ -1,0 +1,4 @@
+classes= 1
+train=/home/aesicd_42/PyTorch-YOLOv3/data/custom/train.txt
+valid=/home/aesicd_42/PyTorch-YOLOv3/data/custom/valid.txt
+names=/home/aesicd_42/PyTorch-YOLOv3/data/custom/classes.names
