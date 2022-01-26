@@ -1,4 +1,3 @@
-from isort import file
 from pycocotools.coco import COCO
 import json
 import os
