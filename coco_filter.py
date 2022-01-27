@@ -50,7 +50,7 @@ def get_val_dict(data, imgIds):
             print(val['image_id'])
             bbox = new_bbox(val['bbox'])
             bbox = ' '.join([str(elem) for elem in bbox])
-            ann =  str(val['category_id']-1) + " " + bbox
+            ann =  str(0.00) + " " + bbox
             if val['image_id'] not in val_dict:
                 val_dict[val['image_id']] = [ann]
             else:
